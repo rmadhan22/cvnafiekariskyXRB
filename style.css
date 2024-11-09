@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left-container {
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(118, 139, 126);
+}
+
+.photo-contact {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+
+.photo {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.contact-btn {
+    width: 50%;
+    background-color: rgb(78, 93, 62);
+    border-radius: 14px;
+    margin-bottom: 14px;
+    font-size: 1,1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.contact-btn:hover {
+    background-color: black
+    color rgb(255, 255, 255);
+    transition: 1s;
+}
+.right-container {
+    position: absolute;
+    left: 400px;
+}
+.top-bar {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.title {
+    font-style: italic;
+    font-size: 1,3rem;
+}
+.list-menu {
+    float: right;
+    padding-right: 50px;
+}
+.menu {
+    font-size: 1,1rem;
+    padding:15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#profile {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#about {
+    padding-top: 100px;
+    padding-left: 100px;
+
+}
+
+#experience {
+    padding-top: 100px;
+    padding: 100px;
+}
+
+#achievement {
+    padding-top: 100px;
+    padding: 100px;
+}
+#contact {
+    padding-top: 100px;
+    padding: 100px;
+}
+#footer {
+    padding-top: 100px;
+    padding: 100px;
+}
